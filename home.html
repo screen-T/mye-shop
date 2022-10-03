@@ -5,15 +5,18 @@
             My e-shop
         </title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous">
+
+        </script>
     </head>
     <body>
-        <img src="logo_mye-shop.jpg">
+        
         <nav>
             
-            <img src="../e-shop project/image/logo_mye-shop.jpg">
+            <img src="logo_mye-shop.jpg">
             <ul>
                 <li>
-            <a href="../e-shop project/home.html">
+            <a href="home.html">
                 Home
             </a>
         </li>
@@ -47,6 +50,55 @@
                 <i class="fas fa-times"></i>
             </div>
             
-        </div>
+        
+        <script>
+            const searchBox = document.querySelector(".search-box");
+            const searchBtn = document.querySelector(".search-icon");
+            const cancelBtn = document.querySelector(".cancel-icon");
+           // const searchInput = document.querySelector("input");
+            const searchData = document.querySelector(".search-data");
+            searchBtn.onclick = () =>{
+            searchBox.classList.add("active");
+            }
+              //searchBtn.classList.add("active");
+              //searchInput.classList.add("active");
+              //cancelBtn.classList.add("active");
+              //searchInput.focus();
+              //if(searchInput.value != ""){
+                //var values = searchInput.value;
+                //searchData.classList.remove("active");
+                //searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
+              //}else{
+                //searchData.textContent = "";
+              //}
+            //}
+            //cancelBtn.onclick =()=>{
+              //searchBox.classList.remove("active");
+              //searchBtn.classList.remove("active");
+              //searchInput.classList.remove("active");
+              //cancelBtn.classList.remove("active");
+              //searchData.classList.toggle("active");
+             // searchInput.value = "";
+            //}
+          </script>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </body>
 </html>
