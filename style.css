@@ -9,17 +9,23 @@ body{
 }
 img
 {
-    max-width: 10%;
-    max-height :10%
+ 
+    max-height :10%;
+    width: 15%;
+    padding-left: 0px;
+   
 }
 nav
 {
-    width: 0%;
-    min-width: 100%;
+    position: relative;
+    width: 70%;
+    padding-top: 0px;
     display: flex;
-    justify-content: space-around;
+    padding: 0%;
     align-items:center;
-    margin:auto; 
+    margin:auto;
+    left:5px;
+    float: left;
 }
 nav a{
     position:relative;
@@ -51,9 +57,12 @@ a:hover::before{
     width: 100%;
 }
 .search-box{
-    position: relative;
-    height: 40px;
+    position: absolute;
+    height: 10px;
     width: 240px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    
 }
 .search-box.active{
     width: 3000%;
@@ -67,7 +76,7 @@ a:hover::before{
     float: left;
     padding: 15px;
 }
-.search-box .search-btn{
+/*.search-box .search-btn{
     height: 90%;
     width: 20%;
     
@@ -84,8 +93,8 @@ a:hover::before{
     font-size: 20px;
     cursor: pointer;
     
-}
-.search-box .cancel-btn{
+}*/
+/*.search-box .cancel-btn{
     height: 90%;
     width: 20%;
     
@@ -97,4 +106,15 @@ a:hover::before{
     color: aqua;
     font-size: 20px;
     cursor: pointer;
+
+}*/
+ul{
+    padding-left: 100px;
+    margin-left: 20px;
+    
+}
+li
+{
+    display: inline-block;
+    padding-right: 50px;
 }
